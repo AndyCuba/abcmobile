@@ -1,0 +1,64 @@
+.thirdPageDateSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdPageDateSelect select {
+    width: 315.95px;
+    height: 69.44px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 34.72px;
+    background: url('../../assets/images/selectArrow.svg') no-repeat bottom 28px right 20px/8%, linear-gradient(90deg, rgba(228, 228, 228, 0.9) -6.2%, rgba(203, 203, 203, 0.9) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none; 
+    -moz-appearance:none; 
+    -webkit-appearance:none;
+    appearance:none;
+    position: relative;
+}
+
+.thirdPageDateSelect select:first-child {
+    padding-left: 32%;
+}
+
+.thirdPageDateSelect select:nth-child(2) {
+    padding-left: 29%;
+}
+
+.thirdPageDateSelect select:nth-child(3) {
+    padding-left: 32%;
+}
+
+.thirdPageDateSelect option[default] {
+    display: none;
+}
+
+.invalid {
+    border: 1px solid #EE5353;
+}
+
+@media (max-width: 768px) {    
+    .thirdPageDateSelect select {
+        width: 179px;
+        height: 40px;
+        margin-bottom: 20px;
+        background: url('../../assets/images/selectArrow.svg') no-repeat bottom 14px right 20px/8%, linear-gradient(90deg, rgba(228, 228, 228, 0.9) -6.2%, rgba(203, 203, 203, 0.9) 100%);
+    }
+
+    .thirdPageDateSelect select:first-child {
+        padding-left: 25%;
+    }
+    
+    .thirdPageDateSelect select:nth-child(2) {
+        padding-left: 23%;
+    }
+    
+    .thirdPageDateSelect select:nth-child(3) {
+        padding-left: 24%;
+    }
+}

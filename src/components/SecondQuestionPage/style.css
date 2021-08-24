@@ -1,0 +1,120 @@
+.secondQuestionPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px 0;
+    position: relative;
+}
+
+.secondQuestionPage > div:first-child {
+    width: 1440px;
+    padding-bottom: 37px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.secondQuestionPage > div:first-child > p {
+    font-family: Bad Script;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.6);
+    width: 440px;
+    text-align: center;
+    margin: auto;
+}
+
+.secondQuestionPage > div:first-child > div:last-child {
+    background: url('../../assets/images/eye-1.svg') center/cover;
+    width: 146.06px;
+    height: 77.06px;
+    position: absolute;
+    left: 874.29px;
+    bottom: 0;
+    opacity: 0.2;
+}
+
+.secondQuestionPage  h2{
+    color: #F6C866;
+    text-transform: uppercase;
+    max-width: 530px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    padding: 74px 0 37px;
+}
+
+.secondQuestionPage > div:last-child {
+    margin-top: 145px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+}
+
+.secondQuestionPage > div:last-child > div {
+    background: url('../../assets/images/eye.svg') center/cover;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: -270px;
+    top: -120px;
+    opacity: 0.2;
+}
+
+
+@media (max-width: 1440px) {
+    .secondQuestionPage > div:first-child {
+        width: 320px;
+    }
+
+    .secondQuestionPage > div:first-child > p {
+        width: 320px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .secondQuestionPage {
+        padding: 21px 0;
+        overflow-x: hidden;
+    }
+
+    .secondQuestionPage > div:first-child {
+        padding-bottom: 37px;
+    }
+
+    .secondQuestionPage > div:first-child > div:last-child {
+        width: 83.64px;
+        height: 44.13px;
+        bottom: 10px;
+        left: 260px;
+    }
+
+    .secondQuestionPage > div:first-child > p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 235px;
+    }
+
+    .secondQuestionPage  h2 {
+        padding: 36px 0 40px;
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 234px;
+    }
+
+    .secondQuestionPage > div:last-child {
+        margin-top: 36px;
+    }
+
+    .secondQuestionPage > div:last-child > div {
+        width: 52px;
+        height: 52px;
+        left: -140px;
+        top: -25px;
+    }
+}

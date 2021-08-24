@@ -1,0 +1,445 @@
+.firstQuestionPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 36px 0;
+  position: relative;
+}
+
+.firstQuestionPage > p:first-child {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 19.45px; 
+}
+
+.firstQuestionPage__accuracy {
+  width: 1440px;
+  padding: 12px 0 64.42px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.firstQuestionPage__accuracy > p {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.firstQuestionPage__blik {
+  position: absolute;
+  width: 1920px;
+  height: 1098px;
+  left: 0px;
+  top: -156px;
+  background: url('../../assets/images/blik.svg') no-repeat center/cover;
+  z-index: 1;
+}
+
+.firstQuestionPage__woman-icon {
+  width: 344.5px;
+  height: 344.5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-bottom: 23.24px;
+}
+
+.firstQuestionPage__woman-icon::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url('../../assets/images/vector.svg') no-repeat center/cover;
+  opacity: 0.6;
+}
+
+.firstQuestionPage__woman-icon > div {
+  width: 237.83px;
+  height: 237.83px;
+  background: url('../../assets/images/woman.svg') no-repeat center/cover;
+}
+
+.firstQuestionPage__question {
+  width: 499.97px;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  color: #F6C866;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.firstQuestionPage__question > p:last-child {
+  text-transform: uppercase;
+}
+
+.firstQuestionPage__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+@keyframes slidein {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: 50%;
+  }
+}
+
+.firstQuestionPage__buttons > button {
+  width: 315.95px;
+  height: 69.44px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-bottom: 34.72px;
+  background: linear-gradient(90deg, rgba(246, 200, 102, 0.9) -6.2%, rgba(254, 173, 53, 0.9) 100%);
+  position: relative;
+  outline: none;
+  border: none;
+}
+
+.firstQuestionPage__buttons > button > div {
+  background: linear-gradient(248.67deg, rgba(255, 255, 255, 0) 30.84%, rgba(255, 255, 255, 0.29) 46.06%, rgba(255, 255, 255, 0) 64.04%);
+  width: 157px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: 1.5s infinite slidein linear;
+}
+
+.firstQuestionPage__buttons + p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 146.48px;
+}
+
+.firstQuestionPage__date-message {
+  width: 442.68px;
+  height: 437.48px;
+  border-radius: 3px;
+  border: 1px solid #FFFFFF;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 128.52px 0 0;
+  margin-bottom: 69px;
+  position: relative;
+  transition: all 2s linear;
+  opacity: 0;
+}
+
+.firstQuestionPage__date-message > div {
+  background: url('../../assets/images/hands.png') center/cover;
+  width: 135.41px;
+  height: 135.41px;
+  position: absolute;
+  top: -67.5px;
+  left: 148.75px;
+}
+
+.firstQuestionPage__date-message > p {
+  width: 320px;
+  height: 225px;
+  margin: auto;
+}
+
+.firstQuestionPage__date-message > p > span {
+  color: #F6C866;
+}
+
+.firstQuestionPage__woman-image {
+  width: 1440px;
+  height: 606px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 133px;
+  transition: all 2s linear;
+  opacity: 0;
+}
+
+.firstQuestionPage__woman-image::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+  background: url('../../assets/images/sittingWoman.jpg') no-repeat center/cover;
+  opacity: 0.2;
+}
+
+.firstQuestionPage__woman-image > p {
+  width: 330px;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.firstQuestionPage__woman-image > p > span {
+  color: #F6C866;
+}
+
+.firstQuestionPage__first-question {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F6C866;
+  padding-bottom: 46.87px;
+}
+
+.firstQuestionPage__question-number {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.firstQuestionPage__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.firstQuestionPage__footer > div:first-child {
+  background: url('../../assets/images/rune1.svg') center/cover;
+  width: 56.52px;
+  height: 17.36px;
+  margin-bottom: 80px;
+}
+
+.firstQuestionPage__footer > p {
+  font-family: Bad Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 300px;
+  margin-bottom: 80px;
+}
+
+.firstQuestionPage__footer > div:nth-child(3) {
+  background: url('../../assets/images/rune2.svg') center/cover;
+  width: 54.94px;
+  height: 17.36px;
+  margin-bottom: 69px;
+}
+
+#eye1 {
+  background: url('../../assets/images/eye.svg') center/cover;
+  width: 164px;
+  height: 164px;
+  position: absolute;
+  left: 150px;
+  top: 225px;
+  opacity: 0.2;
+}
+
+#eye2 {
+  background: url('../../assets/images/eye-1.svg') center/cover;
+  width: 296.84px;
+  height: 156.61px;
+  position: absolute;
+  right: 152px;
+  top: -60px;
+  opacity: 0.2;
+}
+
+.firstQuestionPage__terms {
+  width: 294px;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 9px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #9D9D9D;
+}
+
+.visible {
+  opacity: 1;
+}
+
+@media (max-width: 1440px) {
+  .firstQuestionPage {
+    padding: 14px 0;
+    max-width: 320px;
+    overflow-x: hidden;
+  }
+
+  .firstQuestionPage__accuracy {
+    width: 320px;
+    padding: 7px 0 24px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .firstQuestionPage > p:first-child {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    padding-bottom: 11px; 
+  }
+
+  .firstQuestionPage__woman-icon {
+    width: 198px;
+    height: 198px;
+  }
+
+  .firstQuestionPage__woman-icon > div {
+    width: 137px;
+    height: 137px;
+  }
+
+  .firstQuestionPage__question {
+    width: 288px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 23px;
+  }
+
+  .firstQuestionPage__buttons > button {
+    width: 182px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .firstQuestionPage__buttons > button > div {
+    width: 91px;
+  }
+
+  .firstQuestionPage__buttons + p {
+    font-size: 12px;
+    line-height: 14px;
+    padding-bottom: 100px;
+  }
+
+  .firstQuestionPage__blik {
+    width: 337px;
+    height: 402px;
+    left: -17px;
+    top: -7px;
+  }
+
+  .firstQuestionPage__date-message {
+    width: 255px;
+    height: 252px;
+    padding: 58px 0 0;
+    margin-bottom: 40px;
+  }
+
+  .firstQuestionPage__date-message > div {
+    width: 78px;
+    height: 78px;
+    top: -39px;
+    left: 88.5px;
+  }
+
+  .firstQuestionPage__date-message > p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    width: 245px;
+  }
+
+  .firstQuestionPage__date-message > p > span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .firstQuestionPage__woman-image {
+    width: 320px;
+    height: 331px;
+    margin-bottom: 53px;
+  }
+
+  .firstQuestionPage__woman-image > p {
+    font-size: 16px;
+    line-height: 25px;
+    width: 219px;
+    height: 149px;
+    padding: 15px;
+  }
+
+  .firstQuestionPage__woman-image > p > span {
+    font-size: 20px;
+  }
+
+  .firstQuestionPage__first-question {
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 27px;
+  }
+
+  .firstQuestionPage__question-number {
+    padding-bottom: 61px;
+  }
+
+  .firstQuestionPage__footer > div:first-child {
+    width: 32.56px;
+    height: 10px;
+    margin-bottom: 37px;
+  }
+  
+  .firstQuestionPage__footer > p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 37px;
+  }
+  
+  .firstQuestionPage__footer > div:nth-child(3) {
+    width: 32.56px;
+    height: 10px;
+  }
+  
+  #eye1 {
+    width: 52px;
+    height: 52px;
+    left: -10px;
+    top: 155px;
+  }
+  
+  #eye2 {
+    width: 83.64px;
+    height: 44.13px;
+    right: -25px;
+    top: -30px;
+  }
+}

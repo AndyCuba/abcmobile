@@ -1,0 +1,83 @@
+.answerPage {
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.fifthQuestionPage__message {
+    margin-bottom: 34px;
+}
+
+.fifthQuestionPage__message > p {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 14px;
+    text-align: center;
+}
+
+.fifthQuestionPage__message > p > span {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.answerPage > p {
+    max-width: 259px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFF;
+    margin-bottom: 21px;
+    padding: 0 30px;
+}
+
+.answerPage__date-message {
+    width: 259px;
+    height: 172px;
+    border: 1px solid #FFF;
+    padding: 13px 15px 8px;
+    margin-bottom: 19px;
+}
+
+.answerPage__date-message > p {
+    color: #F6C866;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.answerPage__date-message > p > span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.firstQuestionPage__buttons > button {
+    background: linear-gradient(90deg, rgba(76, 217, 100, 0.9) -6.2%, rgba(50, 185, 73, 0.9) 100%);
+}
+
+.answerPage__terms {
+    width: 294px;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 9px;
+    letter-spacing: 3px;
+    color: #9D9D9D;
+    text-align: center;
+}
+
+.answerPage__recieved-data {
+    padding-bottom: 20px;
+    color: #FFF;
+}
+
+.answerPage__recieved-data h3 {
+    color: #F6C866;
+}
