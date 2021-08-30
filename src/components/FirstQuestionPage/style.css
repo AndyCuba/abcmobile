@@ -297,7 +297,8 @@
 @media (max-width: 1440px) {
   .firstQuestionPage {
     padding: 14px 0;
-    max-width: 320px;
+    max-width: 1026px;
+    margin: auto;
     overflow-x: hidden;
   }
 
@@ -351,10 +352,10 @@
   }
 
   .firstQuestionPage__blik {
-    width: 337px;
+    width: 100%;
     height: 402px;
-    left: -17px;
-    top: -7px;
+    left: 0;
+    top: 0;
   }
 
   .firstQuestionPage__date-message {

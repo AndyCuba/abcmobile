@@ -1,8 +1,4 @@
 <template>
-  <!-- <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div> -->
   <router-view/>
 </template>
 
@@ -17,6 +13,7 @@
 body {
   width: 1920px;
   background: #202024;
+  overflow-x: hidden;
 } 
 
 #app {
@@ -38,7 +35,15 @@ body {
 
 @media (max-width: 1440px) {
   body {
-    width: 320px;
+    max-width: 1026px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1026px) {
+  body {
+    max-width: 320px;
+    margin: auto;
   }
 }
 
